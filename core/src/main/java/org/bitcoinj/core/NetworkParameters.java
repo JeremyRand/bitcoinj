@@ -52,13 +52,13 @@ public abstract class NetworkParameters {
     public static final byte[] SATOSHI_KEY = Utils.HEX.decode("04ba207043c1575208f08ea6ac27ed2aedd4f84e70b874db129acb08e6109a3bbb7c479ae22565973ebf0ac0391514511a22cb9345bdb772be20cfbd38be578b0c"); // This is Vince's key; it will presumably be replaced with a current Namecoin developer's key in the near future.
 
     /** The string returned by getId() for the main, production network where people trade things. */
-    public static final String ID_MAINNET = "org.bitcoin.production";
+    public static final String ID_MAINNET = "org.namecoin.production";
     /** The string returned by getId() for the testnet. */
-    public static final String ID_TESTNET = "org.bitcoin.test";
+    public static final String ID_TESTNET = "org.namecoin.test";
     /** The string returned by getId() for regtest mode. */
-    public static final String ID_REGTEST = "org.bitcoin.regtest";
+    public static final String ID_REGTEST = "org.namecoin.regtest";
     /** Unit test network. */
-    public static final String ID_UNITTESTNET = "org.bitcoinj.unittest";
+    public static final String ID_UNITTESTNET = "org.namecoin.bitcoinj.unittest";
 
     /** The string used by the payment protocol to represent the main net. */
     public static final String PAYMENT_PROTOCOL_ID_MAINNET = "main";
