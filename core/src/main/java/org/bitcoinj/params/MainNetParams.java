@@ -74,11 +74,11 @@ public class MainNetParams extends AbstractBitcoinNetParams {
         //checkpoints.put(200000, Sha256Hash.wrap("000000000000034a7dedef4a161fa058a2d67a173a90155f3a2fe6fc132e0ebf"));
 
         dnsSeeds = new String[] {
-                "seed.bitcoin.sipa.be",        // Pieter Wuille
-                "dnsseed.bluematt.me",         // Matt Corallo
-                "dnsseed.bitcoin.dashjr.org",  // Luke Dashjr
-                "seed.bitcoinstats.com",       // Chris Decker
-                "seed.bitnodes.io",            // Addy Yeow
+                "namecoindnsseed.digi-masters.com",  // George Lloyd
+                "namecoindnsseed.digi-masters.uk",   // George Lloyd
+                "seed.namecoin.domob.eu",            // Daniel Kraft
+                "nmc.seed.quisquis.de",              // Peter Conrad
+                "dnsseed.namecoin.webbtc.com",       // Marius Hanne
         };
         httpSeeds = new HttpDiscovery.Details[] {
                 // Mike Hearn
