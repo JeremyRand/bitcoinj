@@ -81,6 +81,8 @@ public class MainNetParams extends AbstractBitcoinNetParams {
                 "dnsseed.namecoin.webbtc.com",       // Marius Hanne
         };
         httpSeeds = new HttpDiscovery.Details[] {
+                // TODO: look into adding HTTP seeds for Namecoin.
+                /*
                 // Mike Hearn
                 new HttpDiscovery.Details(
                         ECKey.fromPublicOnly(Utils.HEX.decode("027a79143a4de36341494d21b6593015af6b2500e720ad2eda1c0b78165f4f38c4")),
@@ -91,6 +93,7 @@ public class MainNetParams extends AbstractBitcoinNetParams {
                         ECKey.fromPublicOnly(Utils.HEX.decode("0238746c59d46d5408bf8b1d0af5740fe1a6e1703fcb56b2953f0b965c740d256f")),
                         URI.create("http://httpseed.bitcoin.schildbach.de/peers")
                 )
+                */
         };
 
         addrSeeds = new int[] {
