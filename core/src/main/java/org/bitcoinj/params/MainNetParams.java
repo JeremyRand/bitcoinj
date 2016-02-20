@@ -40,7 +40,8 @@ public class MainNetParams extends AbstractBitcoinNetParams {
         dumpedPrivateKeyHeader = 128;
         addressHeader = 52;
         p2shHeader = 5;
-        acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
+        //acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
+        acceptableAddressCodes = new int[] { addressHeader }; // Namecoin doesn't yet enforce P2SH, so we disable it for now.
         port = 8333;
         packetMagic = 0xf9beb4d9L;
         bip32HeaderPub = 0x0488B21E; //The 4 byte header that serializes in base58 to "xpub".
