@@ -53,7 +53,7 @@ public class MainNetParams extends AbstractBitcoinNetParams {
 
         genesisBlock.setDifficultyTarget(0x1C007FFFL);
         genesisBlock.setTime(1303000001L);
-        genesisBlock.setNonce(2083236893);
+        genesisBlock.setNonce(2719916434L);
         id = ID_MAINNET;
         subsidyDecreaseBlockCount = 210000;
         spendableCoinbaseDepth = 100;
