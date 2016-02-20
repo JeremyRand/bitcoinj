@@ -118,9 +118,9 @@ public abstract class NetworkParameters {
         try {
             // A script containing the difficulty bits and the following message:
             //
-            //   "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"
+            //   "... choose what comes next.  Lives of your own, or a return to chains. -- V"
             byte[] bytes = Utils.HEX.decode
-                    ("04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73");
+                    ("04ff7f001c020a024b2e2e2e2063686f6f7365207768617420636f6d6573206e6578742e20204c69766573206f6620796f7572206f776e2c206f7220612072657475726e20746f20636861696e732e202d2d2056");
             t.addInput(new TransactionInput(n, t, bytes));
             ByteArrayOutputStream scriptPubKeyBytes = new ByteArrayOutputStream();
             Script.writeBytes(scriptPubKeyBytes, Utils.HEX.decode
