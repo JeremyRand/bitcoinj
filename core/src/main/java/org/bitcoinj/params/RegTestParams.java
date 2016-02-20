@@ -33,7 +33,7 @@ public class RegTestParams extends TestNet2Params {
         interval = 10000;
         maxTarget = MAX_TARGET;
         subsidyDecreaseBlockCount = 150;
-        port = 18444;
+        port = 18445;
         id = ID_REGTEST;
 
         majorityEnforceBlockUpgrade = MainNetParams.MAINNET_MAJORITY_ENFORCE_BLOCK_UPGRADE;
