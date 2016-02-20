@@ -49,7 +49,7 @@ public abstract class NetworkParameters {
     /**
      * The alert signing key originally owned by Satoshi, and now passed on to Gavin along with a few others.
      */
-    public static final byte[] SATOSHI_KEY = Utils.HEX.decode("04fc9702847840aaf195de8442ebecedf5b095cdbb9bc716bda9110971b28a49e0ead8564ff0db22209e0374782c093bb899692d524e9d6a6956e7c5ecbcd68284");
+    public static final byte[] SATOSHI_KEY = Utils.HEX.decode("04ba207043c1575208f08ea6ac27ed2aedd4f84e70b874db129acb08e6109a3bbb7c479ae22565973ebf0ac0391514511a22cb9345bdb772be20cfbd38be578b0c"); // This is Vince's key; it will presumably be replaced with a current Namecoin developer's key in the near future.
 
     /** The string returned by getId() for the main, production network where people trade things. */
     public static final String ID_MAINNET = "org.bitcoin.production";
